@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FarmHub — Smart Decisions. Better Farming.</title>
+  <meta name="description" content="AI & IoT-powered agricultural decision support platform. Precision soil hydrology, microclimate spray windows, disease triage, and mandi market intelligence.">
+  <meta name="theme-color" content="#123D28" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1712" media="(prefers-color-scheme: dark)">
+
+  <!-- SVG Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="FarmHub — Smart Decisions. Better Farming.">
+  <meta property="og:description" content="Precision agricultural decision-support web application for farmers.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Leaflet Map CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <!-- FarmHub CSS Design System (Custom Properties, Themes & Responsive) -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Supporting Libraries (Allowed): Chart.js & Leaflet.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+<body>
+
+  <!-- Root Application Container rendered by Vanilla JS -->
+  <div id="appRoot">
+    <div style="display:flex;height:100vh;align-items:center;justify-content:center;font-family:sans-serif;color:#18231D">
+      <div style="text-align:center">
+        <div style="font-size:36px;margin-bottom:12px">🌱</div>
+        <b>Loading FarmHub…</b>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vanilla ES6+ JavaScript Modules -->
+  <script src="translations.js"></script>
+  <script src="crops-data.js"></script>
+  <script src="engine.js"></script>
+  <script src="api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
